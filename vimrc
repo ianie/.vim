@@ -13,6 +13,7 @@ set undofile
 set undodir=~/.vim/undodir
 set foldmethod=indent
 set foldlevel=99
+set ic
 map <leader>G :GundoToggle<CR>
 map <c-j> <c-w>j
 map <c-k> <c-w>k
