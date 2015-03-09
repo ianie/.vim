@@ -34,4 +34,4 @@ let g:jedi#show_call_signatures = "1"
 set noshowmode
 
 "Make sure the status bar always appears even when there is only 1 window.
-set laststatus=2
+"set laststatus=2
