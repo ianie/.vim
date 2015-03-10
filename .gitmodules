@@ -26,3 +26,6 @@
 	path = bundle/vim-virtualenv
 	url = https://github.com/jmcantrell/vim-virtualenv
     ignore = dirty
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
