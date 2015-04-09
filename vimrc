@@ -47,4 +47,6 @@ let g:jedi#documentation_command = "<leader>K"
 "We already have vim-airline
 set noshowmode
 
+"Allow/detect triple quotes
 autocmd FileType python let b:delimitMate_nesting_quotes = ['"']
+autocmd FileType pyrex let b:delimitMate_nesting_quotes = ['"']
