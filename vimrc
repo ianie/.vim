@@ -35,13 +35,13 @@ map ∆ gT
 autocmd FileType python setlocal completeopt-=preview
 autocmd FileType pyrex setlocal completeopt-=preview
 
-"1 is for inline, 2 is for command bar (buggy)
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#popup_on_dot = 0
 let g:jedi#popup_select_first = 0
 let g:jedi#completions_enabled = 0
 let g:jedi#completions_command = ""
-let g:jedi#show_call_signatures = "1"
+"1 is for inline, 2 is for command bar (buggy)
+let g:jedi#show_call_signatures = "0"
 let g:jedi#documentation_command = "<leader>K"
 
 "We already have vim-airline
