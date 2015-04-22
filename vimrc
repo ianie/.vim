@@ -1,4 +1,5 @@
 execute pathogen#infect()
+call pathogen#helptags()
 filetype plugin indent on
 syntax on
 set background=dark
@@ -27,9 +28,11 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
-"Fast tab switching
+"Fast tabs
 map ˚ gt
 map ∆ gT
+map † :tabnew<CR>
+map ≈ :tabclose<CR>
 
 "This stops autocomplete from opening a new window
 autocmd FileType python setlocal completeopt-=preview
@@ -43,6 +46,9 @@ let g:jedi#completions_command = ""
 "1 is for inline, 2 is for command bar (buggy)
 let g:jedi#show_call_signatures = "0"
 let g:jedi#documentation_command = "<leader>K"
+
+"command-t
+let g:CommandTToggleFocusMap='C-m'
 
 "We already have vim-airline
 set noshowmode

@@ -35,3 +35,9 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/vim-lucius"]
+	path = bundle/vim-lucius
+	url = https://github.com/jonathanfilip/vim-lucius
