@@ -44,11 +44,14 @@ let g:jedi#popup_select_first = 0
 let g:jedi#completions_enabled = 0
 let g:jedi#completions_command = ""
 "1 is for inline, 2 is for command bar (buggy)
-let g:jedi#show_call_signatures = "0"
+let g:jedi#show_call_signatures = "1"
 let g:jedi#documentation_command = "<leader>K"
 
 "command-t
 let g:CommandTToggleFocusMap='C-m'
+
+"Tagbar
+nmap <leader>T :TagbarToggle<CR>
 
 "We already have vim-airline
 set noshowmode
