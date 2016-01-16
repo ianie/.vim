@@ -35,8 +35,9 @@ map † :tabnew<CR>
 map ≈ :tabclose<CR>
 
 "This stops autocomplete from opening a new window
-autocmd FileType python setlocal completeopt-=preview
-autocmd FileType pyrex setlocal completeopt-=preview
+set completeopt-=preview
+"autocmd FileType python setlocal completeopt-=preview
+"autocmd FileType pyrex setlocal completeopt-=preview
 
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#popup_on_dot = 0
@@ -59,3 +60,10 @@ set noshowmode
 "Allow/detect triple quotes
 autocmd FileType python let b:delimitMate_nesting_quotes = ['"']
 autocmd FileType pyrex let b:delimitMate_nesting_quotes = ['"']
+
+" Golang
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
