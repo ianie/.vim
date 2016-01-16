@@ -34,6 +34,9 @@ map ∆ gT
 map † :tabnew<CR>
 map ≈ :tabclose<CR>
 
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
+
 "This stops autocomplete from opening a new window
 set completeopt-=preview
 "autocmd FileType python setlocal completeopt-=preview
